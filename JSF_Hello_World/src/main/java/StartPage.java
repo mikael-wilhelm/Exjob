@@ -13,13 +13,29 @@ public class StartPage implements Serializable {
     private String name;
     int number = 5;
     private boolean vis = true;
+    private int tempLoadNumber;
+    private String tempLoadName ="";
+    private static final long serialVersionUID = 1L;
+
+    public void test()
+    {
+        loads.add(new Load(tempLoadNumber,tempLoadName ));
+    }
+
+
+
+
+
+
+
+
+
+
 
     public String getTempLoadName()
     {
         return tempLoadName;
     }
-
-
 
     public int getTempLoadNumber()
     {
@@ -31,19 +47,9 @@ public class StartPage implements Serializable {
         this.tempLoadNumber = tempLoadNumber;
     }
 
-    private int tempLoadNumber;
-
     public void setTempLoadName(String tempLoadName)
     {
         this.tempLoadName = tempLoadName;
-    }
-
-    private String tempLoadName ="";
-    private static final long serialVersionUID = 1L;
-
-    public void test()
-    {
-        loads.add(new Load(tempLoadNumber,tempLoadName ));
     }
 
     public ArrayList<Load> getLoads()
