@@ -1,3 +1,5 @@
+
+
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
@@ -20,6 +22,7 @@ public class StartPage implements Serializable {
     public void test()
     {
         loads.add(new Load(tempLoadNumber,tempLoadName ));
+
     }
 
 
