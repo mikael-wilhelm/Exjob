@@ -58,15 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="39" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +70,7 @@
       <file leaf-file-name="showLoads.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/main/webapp/showLoads.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="55" selection-start="839" selection-end="839" vertical-scroll-proportion="-13.076923">
+            <state line="20" column="55" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,19 +121,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registerLoads.xhtml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="registerLoads.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/main/webapp/registerLoads.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="499" selection-end="812" vertical-scroll-proportion="0.28145695">
+            <state line="15" column="0" selection-start="499" selection-end="812" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="83" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.28969958">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/pom.xml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="10" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+            <state line="10" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,7 +163,6 @@
         <option value="$PROJECT_DIR$/main/src/main/java/showLoadsManageBean.java" />
         <option value="$PROJECT_DIR$/main/src/main/java/showBeans/showLoadsManageBean.java" />
         <option value="$PROJECT_DIR$/main/src/main/java/model/LoadFinder.java" />
-        <option value="$PROJECT_DIR$/main/pom.xml" />
         <option value="$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/main/src/main/java/model/TempDatabase.java" />
         <option value="$PROJECT_DIR$/main/src/main/java/model/Loads.java" />
@@ -173,6 +172,8 @@
         <option value="$PROJECT_DIR$/main/src/main/java/model/LoadManager.java" />
         <option value="$PROJECT_DIR$/main/src/main/java/showBeans/ShowLoadsManageBean.java" />
         <option value="$PROJECT_DIR$/main/src/main/webapp/showLoads.xhtml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/main/pom.xml" />
       </list>
     </option>
   </component>
@@ -217,21 +218,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LoadPlannerParent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files" />
+        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -405,6 +392,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -420,8 +410,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -452,6 +442,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -477,24 +485,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -663,11 +653,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="39" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0" />
@@ -676,6 +661,18 @@
     <entry file="file://$PROJECT_DIR$/main/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="24" selection-start="708" selection-end="708" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/main/webapp/showLoads.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="55" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/main/java/showBeans/ShowLoadsManageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/src/main/java/model/LoadManager.java">
@@ -698,28 +695,21 @@
         <state line="19" column="26" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="10" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/main/java/showBeans/ShowLoadsManageBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/main/webapp/showLoads.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="55" selection-start="839" selection-end="839" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/main/webapp/registerLoads.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="499" selection-end="812" vertical-scroll-proportion="0.28145695">
+        <state line="15" column="0" selection-start="499" selection-end="812" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="83" selection-start="1550" selection-end="1550" vertical-scroll-proportion="0.28969958">
           <folding />
         </state>
       </provider>
