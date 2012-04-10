@@ -10,7 +10,7 @@ import javax.faces.bean.RequestScoped;
 public class RegisterLoadsManageBean {
 
 
-
+    private LoadDAO loadDAO = new LoadDAO();
 
     private String tempContent = "Enter Content";
 
@@ -20,7 +20,7 @@ public class RegisterLoadsManageBean {
 
 
     public void registerLoad(){
-        LoadDAO.getInstance().registerLoad(tempContent, tempHarbor);
+        loadDAO.insertLoad(tempContent, tempHarbor);
     }
 
 

@@ -4,36 +4,40 @@ package model;
 import java.util.ArrayList;
 
 public  class LoadDAO {
-    private static LoadDAO loadDAO = new LoadDAO();
-    private Loads loadsDB = new Loads();
 
-    private LoadDAO(){
+
+    public LoadDAO(){
 
     }
 
-    public void registerLoad( String content, String harbor){
-        loadsDB.registerLoad(content, harbor);
+    public void insertLoad(String content, String harbor){
+        Loads.getInstance().insertLoad(content, harbor);
     }
 
-    public ArrayList<Load> getLoadsDB(){
-            return loadsDB.getLoads();
+    public ArrayList<Load> getLoads(){
+            return Loads.getInstance().getLoads();
     }
 
-    public ArrayList<Load> getLoads(String s){
+    public ArrayList<Load> getLoadsFilteredByHarbor(String s){
+        Loads tempLoads = Loads.getInstance();
         if(!s.equals("")){
             ArrayList<Load> loadsMatching = new ArrayList<Load>();
-            for(Load load: loadsDB.getLoads())
+            for(Load load: tempLoads.getLoads())
                 if(s.equals(load.getHarbor()))
                     loadsMatching.add(load);
             return loadsMatching;
         }
         else
-            return loadsDB.getLoads();
+            return tempLoads.getLoads();
+
     }
 
-    public static LoadDAO getInstance(){
-        return loadDAO;
+    public void deleteLoad(Load load){
+
     }
 
+    public void clearAllEntries(){
+        Loads.getInstance().clearAllEntries();
+    }
 
 }

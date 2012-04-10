@@ -4,7 +4,7 @@ package model;
 public class Load {
     private String content;
     private String harbor;
-
+    private int id;
 
 
 

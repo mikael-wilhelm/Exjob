@@ -11,7 +11,7 @@ import java.util.ArrayList;
 @RequestScoped
 public class ShowLoadsManageBean {
     private ArrayList<Load> loads = new ArrayList<Load>();
-
+    private LoadDAO loadDAO = new LoadDAO();
     private String filter="";
 
     public String getFilter() {
@@ -23,7 +23,7 @@ public class ShowLoadsManageBean {
     }
 
     public ArrayList<Load> getLoads() {
-        loads = LoadDAO.getInstance().getLoads(filter);
+        loads = loadDAO.getLoadsFilteredByHarbor(filter);
         return loads;
     }
 
