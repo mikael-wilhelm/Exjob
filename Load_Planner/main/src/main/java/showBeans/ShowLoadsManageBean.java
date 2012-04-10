@@ -1,11 +1,10 @@
 package showBeans;
 
 import model.Load;
-import model.LoadManager;
+import model.LoadDAO;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import javax.faces.bean.SessionScoped;
 import java.util.ArrayList;
 
 @ManagedBean
@@ -24,7 +23,7 @@ public class ShowLoadsManageBean {
     }
 
     public ArrayList<Load> getLoads() {
-        loads = LoadManager.getInstance().getLoads(filter);
+        loads = LoadDAO.getInstance().getLoads(filter);
         return loads;
     }
 

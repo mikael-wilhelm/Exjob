@@ -1,6 +1,6 @@
 package showBeans;
 
-import model.LoadManager;
+import model.LoadDAO;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
@@ -20,7 +20,7 @@ public class RegisterLoadsManageBean {
 
 
     public void registerLoad(){
-        LoadManager.getInstance().registerLoad(tempContent, tempHarbor);
+        LoadDAO.getInstance().registerLoad(tempContent, tempHarbor);
     }
 
 
