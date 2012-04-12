@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/main/LoadPlannerMain.iml" filepath="$PROJECT_DIR$/main/LoadPlannerMain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/main/LoadPlannerMain.iml" filepath="$PROJECT_DIR$/main/LoadPlannerMain.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoadPlannerParent.iml" filepath="$PROJECT_DIR$/LoadPlannerParent.iml" />
       <module fileurl="file://$PROJECT_DIR$/loadPlanner.iml" filepath="$PROJECT_DIR$/loadPlanner.iml" />
       <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
